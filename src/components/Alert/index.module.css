@@ -1,0 +1,57 @@
+.wrapper {
+    display: flex;
+    align-items:flex-start;
+    border-radius: 4px;
+    padding: 8px 15px;
+    box-sizing: border-box;
+}
+
+.content {
+    flex: 1;
+    font-size: 14px;
+    color: #000000d9;
+}
+
+.left-icon {
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.info {
+    background-color: #e6f7ff;
+    border: 1px solid #91d5ff;
+}
+.info-icon {
+    color: #1890ff;
+}
+
+.success {
+    background-color: #f6ffed;
+    border: 1px solid #b7eb8f;
+}
+.success-icon {
+    color: #52c41a;
+}
+
+.warning {
+    background-color: #ffe58f;
+    border: 1px solid #ffe58f;
+}
+.warning-icon {
+    color: #faad14;
+}
+
+.error {
+    background-color: #fff2f0;
+    border: 1px solid #ffccc7;
+}
+.error-icon {
+    color: #ff4d4f;
+}
+
+.close-icon {
+    color: #00000073;
+    cursor: pointer;
+    font-size: 10px;
+    margin-left: 8px;
+}
